@@ -53,5 +53,5 @@ public class TotalNQueens {
         }
         return true;
     }
-    
+
 }
