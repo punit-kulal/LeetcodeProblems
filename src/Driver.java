@@ -1,10 +1,12 @@
+import java.util.List;
+
 public class Driver {
     public static void main(String[] args) {
 //        new TrappingRainWater().trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
 //        new TrapRainWater().trapRainWater(new int[][]{{1,4,3,1,3,2},{3,2,1,3,2,4},{2,3,3,2,3,1}});
 //        runReverseKNodes();
-        int[][] matrix = {{1, 3, 5, 7}, {10, 11, 16, 20},{23, 30, 34, 50}};
-        new Search2DMatrix().searchMatrix(matrix, 3);
+        List<List<Integer>> x = new AllPossibleSubsets().subsets(new int[]{1,2,3});
+        System.out.println("a");
     }
 
 
